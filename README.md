@@ -73,23 +73,7 @@ Edit this array in `rpi-test.sh`:
 CHECK_SERVICES=("ssh" "cron" "docker" "dhcpcd" "NetworkManager" "wpa_supplicant")
 ```
 
-## Open Source License: What Should or Could Be Used?
-
-Recommended default: **MIT License**.
-
-Why MIT:
-
-- very simple and short,
-- allows broad personal and commercial reuse,
-- requires attribution,
-- low friction for adoption.
-
-Other good options:
-
-- **Apache-2.0**: permissive like MIT, with explicit patent grant.
-- **GPL-3.0**: strong copyleft; derivatives must stay GPL.
-
-If your goal is widest adoption and easiest reuse, pick **MIT**.
+## Open Source License: MIT
 
 ## Troubleshooting
 
